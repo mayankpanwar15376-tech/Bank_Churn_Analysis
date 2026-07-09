@@ -113,36 +113,6 @@ Bank-Customer-Churn-Prediction/
 └── .gitignore
 ```
 
----
-
-## 🚀 How to Run the Project
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/Bank-Customer-Churn-Prediction.git
-```
-
-2. Navigate to the project directory
-
-```bash
-cd Bank-Customer-Churn-Prediction
-```
-
-3. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Open the notebook
-
-```bash
-jupyter notebook analysis.ipynb
-```
-
----
-
 ## 📊 Results
 
 The machine learning models were trained and evaluated to identify customers likely to churn. Model performance was compared using multiple evaluation metrics, and the best-performing model can help banks proactively target at-risk customers with personalized retention strategies.
