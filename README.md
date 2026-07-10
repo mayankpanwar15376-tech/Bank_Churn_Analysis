@@ -37,11 +37,11 @@ A few key patterns surfaced during EDA:
 
 **Churn rate increases sharply with number of products held**
 
-![Churn Rate by Products](images/churn_rate_by_products.png)
+![Churn Rate by Products](churn_rate_by_products.png)
 
 **Age distribution differs notably between churned and retained customers**
 
-![Age Distribution](images/age_violin.png)
+![Age Distribution](age_violin.png)
 
 ---
 
@@ -67,7 +67,7 @@ Five classification models were trained and compared using **5-fold stratified c
 | AdaBoost | 0.8462 | 0.0133 |
 | SVC | 0.8351 | 0.0104 |
 
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](model_comparison.png)
 
 **Gradient Boosting** was selected as the final model — it had both the highest mean AUC and the lowest variance across folds.
 
@@ -91,7 +91,7 @@ Five classification models were trained and compared using **5-fold stratified c
 
 Understanding *why* the model predicts churn matters as much as the prediction itself:
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](feature_importance.png)
 
 **Age** and **number of products held** emerged as the two strongest predictors of churn — a clear, actionable signal for the bank's retention team to target specific customer segments.
 
