@@ -33,7 +33,7 @@ A few key patterns surfaced during EDA:
 
 **Correlation between numerical features**
 
-![Correlation Heatmap](images/age_violin.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 **Churn rate increases sharply with number of products held**
 
